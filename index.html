@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>JevStore — the feed that reads your mind</title>
-<meta name="description" content="JevStore is a prototype e-commerce feed personalized in real time by Jev (system-one). Hover, dwell, click — Jev infers intent and pre-fills upcoming rows.">
+<title>JevStore: the feed that reads your mind</title>
+<meta name="description" content="JevStore is a prototype e-commerce feed personalized in real time by Jev (system-one). Hover, dwell, click, and Jev infers intent and pre-fills upcoming rows.">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -26,75 +26,74 @@
   <div class="hero-text">
     <p class="kicker">Live intent, not history · demo + explainer</p>
     <h1>The feed that <em>reads your mind</em> while you shop.</h1>
-    <p class="lede">Linger on a pair of sneakers and sneaker-adjacent rows start appearing <em>before</em> you scroll to them — each pick stamped with a match score. No quiz, no login, no search. That is <strong>Jev</strong>, a fast system-one model, reading in-session intent and ranking the shelves around it.</p>
+    <p class="lede">Linger on a pair of sneakers and sneaker-adjacent rows start appearing <em>before</em> you scroll to them, each pick stamped with a match score. No quiz, no login, no search. That is <strong>Jev</strong>, a fast system-one model, reading in-session intent and ranking the shelves around it.</p>
     <div class="cta-row">
-      <a class="btn primary" href="https://github.com/juanri7/jev-store" target="_blank" rel="noopener">Clone &amp; run the demo</a>
+      <a class="btn primary" href="https://github.com/juanri7/jev-store" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="vertical-align:-3px;margin-right:8px"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>See repo</a>
       <a class="btn" href="#video">Watch the 30s demo</a>
     </div>
     <p class="micro">Prototype · runs on <code>localhost:8099</code> · your browsing stays in browser memory, nothing is stored</p>
   </div>
-  <div class="hero-art" aria-hidden="true">
-    <svg viewBox="0 0 420 300" class="doodle" role="img">
-      <rect x="14" y="14" width="392" height="272" rx="18" fill="#fff" stroke="#111" stroke-width="2.5"/>
-      <!-- shopper -->
-      <circle cx="90" cy="110" r="26" fill="#111"/>
-      <circle cx="82" cy="106" r="3.5" fill="#fff"/><circle cx="98" cy="106" r="3.5" fill="#fff"/>
-      <path d="M70 150 L60 190 M110 150 L120 190 M80 150 L80 185 M100 150 L100 185" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
-      <text x="58" y="220" font-size="13" font-family="cursive" fill="#111">you browse</text>
-      <!-- signals -->
-      <path d="M130 100 C 170 90, 180 120, 210 110" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="6 5" stroke-linecap="round"/>
-      <text x="140" y="85" font-size="12" font-family="cursive" fill="#ef4444">hover 0.6s+</text>
-      <text x="150" y="135" font-size="12" font-family="cursive" fill="#f97316">slow scroll, click, cart</text>
-      <!-- jev blob pushing products -->
-      <rect x="220" y="70" width="130" height="90" rx="12" fill="#fff" stroke="#111" stroke-width="2.5"/>
-      <text x="235" y="95" font-size="13" font-weight="700" font-family="sans-serif" fill="#111">Jev</text>
-      <text x="235" y="112" font-size="11" font-family="monospace" fill="#444">noul + choice</text>
-      <circle cx="250" cy="135" r="12" fill="#111"/><circle cx="246" cy="133" r="2" fill="#fff"/><circle cx="254" cy="133" r="2" fill="#fff"/>
-      <rect x="270" y="125" width="52" height="20" rx="6" fill="#006be6"/><text x="278" y="139" font-size="11" fill="#fff" font-family="sans-serif">87% match</text>
-      <path d="M350 110 C 370 110, 375 140, 390 145" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
-      <rect x="335" y="150" width="60" height="60" rx="8" fill="#fff" stroke="#111" stroke-width="2"/>
-      <rect x="342" y="157" width="46" height="26" rx="4" fill="#eee"/>
-      <line x1="342" y1="192" x2="388" y2="192" stroke="#111" stroke-width="2" stroke-linecap="round"/>
-      <text x="332" y="230" font-size="12" font-family="cursive" fill="#006be6">rows fill early!</text>
-    </svg>
+  <div class="hero-art">
+    <div class="video-wrap">
+      <video controls preload="metadata" poster="assets/poster.jpg">
+        <source src="assets/jevstore-demo.mp4" type="video/mp4">
+        <p>Your browser can't play this video. The demo loop is described in the How it works section below.</p>
+      </video>
+    </div>
   </div>
 </section>
 
 <section id="why" class="section">
-  <h2>Why this matters <span class="hand">— in plain English</span></h2>
+  <h2>Why this matters <span class="hand">· in plain English</span></h2>
   <div class="grid3">
     <article class="card">
       <p class="step">Shoppers</p>
       <h3>Shelves that keep up with you</h3>
-      <p>Today's recommendations are frozen: same best-sellers for everyone, blind to what you looked at ten seconds ago. Here the feed notices mid-browse and adjusts — the store feels attentive instead of generic.</p>
+      <p>Today's recommendations are frozen: same best-sellers for everyone, blind to what you looked at ten seconds ago. Here the feed notices mid-browse and adjusts. The store feels attentive instead of generic.</p>
     </article>
     <article class="card">
       <p class="step">Speed</p>
       <h3>Ranked before you arrive</h3>
-      <p>Ranking a row is a judgment call, not an essay. Jev answers in milliseconds, so rows are ready before they scroll into view. No spinner, no stalled feed — a frontier-model round-trip could never keep up with infinite scroll.</p>
+      <p>Ranking a row is a judgment call, not an essay. Jev answers in milliseconds, so rows are ready before they scroll into view. No spinner, no stalled feed. A frontier-model round-trip could never keep up with infinite scroll.</p>
     </article>
     <article class="card">
       <p class="step">Trust</p>
       <h3>It can only pick real products</h3>
-      <p>Jev ranks a fixed set of actual shelf items — it cannot invent one that doesn't exist. And the ghost panel shows its working live. Flip the toggle OFF and feel the same feed go dead: that gap is the evidence.</p>
+      <p>Jev ranks a fixed set of actual shelf items. It cannot invent one that doesn't exist. And the ghost panel shows its working live. Flip the toggle OFF and feel the same feed go dead: that gap is the evidence.</p>
     </article>
   </div>
 </section>
 
 <section id="video" class="section">
-  <h2>Watch it work <span class="hand">— 30 seconds</span></h2>
-  <p>Hover, linger, click, add to cart — every move is a vote, and the ghost profile moves with each one. Then scroll: the Jev row arrives mid-stream, ranked in milliseconds with no waiting. Flip Jev OFF to feel the difference.</p>
-  <div class="video-wrap">
-    <video controls preload="metadata" poster="assets/poster.jpg">
-      <source src="assets/jevstore-demo.mp4" type="video/mp4">
-      <p>Your browser can't play this video — the demo loop (hover → Jev scores → ranked row) is described in the How it works section below.</p>
-    </video>
+  <h2>The loop, sketched <span class="hand">· 30 seconds on video above</span></h2>
+  <p>You browse, Jev reads the votes, the next row is already ranked. No waiting, no invented products.</p>
+  <div class="doodle-wrap" aria-hidden="true">
+    <svg viewBox="0 0 480 320" class="doodle" role="img">
+      <rect x="14" y="14" width="452" height="292" rx="18" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <circle cx="90" cy="120" r="26" fill="#111"/>
+      <circle cx="82" cy="116" r="3.5" fill="#fff"/><circle cx="98" cy="116" r="3.5" fill="#fff"/>
+      <path d="M70 160 L60 200 M110 160 L120 200 M80 160 L80 195 M100 160 L100 195" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="52" y="232" font-size="14" font-family="cursive" fill="#111">you browse</text>
+      <path class="flow" d="M130 110 C 175 100, 190 130, 232 118" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <text x="140" y="92" font-size="13" font-family="cursive" fill="#ef4444">hover 0.6s+</text>
+      <text x="150" y="146" font-size="13" font-family="cursive" fill="#f97316">slow scroll,</text>
+      <text x="150" y="163" font-size="13" font-family="cursive" fill="#f97316">click, cart</text>
+      <rect x="250" y="76" width="140" height="96" rx="12" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <text x="265" y="101" font-size="14" font-weight="700" font-family="sans-serif" fill="#111">Jev</text>
+      <text x="265" y="119" font-size="11" font-family="monospace" fill="#444">noul + choice</text>
+      <g class="blob"><circle cx="280" cy="146" r="12" fill="#111"/><circle cx="276" cy="144" r="2" fill="#fff"/><circle cx="284" cy="144" r="2" fill="#fff"/></g>
+      <rect x="298" y="135" width="70" height="22" rx="7" fill="#006be6"/><text x="306" y="150" font-size="11" fill="#fff" font-family="sans-serif">87% match</text>
+      <path d="M390 118 C 404 118, 408 150, 420 156" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <rect x="400" y="164" width="60" height="60" rx="8" fill="#fff" stroke="#111" stroke-width="2"/>
+      <rect x="407" y="171" width="46" height="26" rx="4" fill="#eee"/>
+      <line x1="407" y1="206" x2="453" y2="206" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <text x="356" y="252" font-size="13" font-family="cursive" fill="#006be6">rows fill early!</text>
+    </svg>
   </div>
-  <p class="hint">Video workflow: run <code>/brag</code> from <code>jev-store/</code> with output to <code>%TEMP%/opencode</code>, then copy only the final <code>.mp4</code> here. Never commit <code>brag-output/</code>.</p>
 </section>
 
 <section id="how" class="section">
-  <h2>How it works <span class="hand">— three moves</span></h2>
+  <h2>How it works <span class="hand">· three moves</span></h2>
   <div class="grid3">
     <article class="card">
       <p class="step">1 · Signal</p>
@@ -105,7 +104,7 @@
     <article class="card">
       <p class="step">2 · Noul profile</p>
       <h3>Jev scores interest</h3>
-      <p>In plain terms: Jev turns your votes into odds per category, live. Technically: <code>POST /api/profile</code> asks Noul questions over the last ~8 signals — “probability the shopper wants category X?” — rendered as probability bars.</p>
+      <p>In plain terms: Jev turns your votes into odds per category, live. Technically: <code>POST /api/profile</code> asks Noul questions over the last ~8 signals ("probability the shopper wants category X?"), rendered as probability bars.</p>
       <code class="snip">q0: { type: "noul", … } → { "sneakers": 0.82 }</code>
     </article>
     <article class="card">
@@ -119,16 +118,16 @@
 
 <section id="jev" class="section split">
   <div>
-    <h2>Why Jev <span class="hand">— not rules</span></h2>
-    <p>No quiz, no login, no hard filters. A usable interest profile emerges from roughly the first 3 dwells and refreshes every ~2.5s. Same UI runs <strong>adaptive</strong> vs <strong>popularity</strong> — the metrics strip logs hovers, avg dwell, clicks, carts per mode. That’s the proof.</p>
+    <h2>Why Jev <span class="hand">· not rules</span></h2>
+    <p>No quiz, no login, no hard filters. A usable interest profile emerges from roughly the first 3 dwells and refreshes every ~2.5s. Same UI runs <strong>adaptive</strong> vs <strong>popularity</strong>. The metrics strip logs hovers, avg dwell, clicks, carts per mode. That’s the proof.</p>
     <ul class="ticks">
-      <li><strong>Ghost panel:</strong> transparency as a feature — watch the machine read you.</li>
+      <li><strong>Ghost panel:</strong> transparency as a feature: watch the machine read you.</li>
       <li><strong>Server proxy:</strong> browser never holds the key; <code>server/app.py</code> calls Jev via vault CLI or <code>JEV_API_KEY</code>.</li>
       <li><strong>Catalog:</strong> 578 SKUs from real records (titles, prices, categories, hosted photos) + seeded mock variants.</li>
     </ul>
   </div>
   <div class="code-card">
-<pre><code># profile — what does Jev think?
+<pre><code># profile: what does Jev think?
 state:
   "Dwelled 1.2s on 'Runner X' (sneakers)
    Clicked 'Gym Duffel' (bags)"
@@ -136,7 +135,7 @@ questions:
   q0: is interested in 'sneakers'
   q1: is interested in 'bags'
 
-# rank — what fills the next row?
+# rank: what fills the next row?
 state: "interests: sneakers 0.82, bags 0.61"
 questions:
   rank: { type: choice, criteria: { sku: title… } }
@@ -147,9 +146,9 @@ questions:
 <section class="section try">
   <h2>Try it yourself</h2>
   <ol>
-    <li><code>python3 data/build_catalog.py</code> — build the catalog</li>
-    <li><code>python3 server/app.py</code> — serve + Jev proxy (key stays server-side)</li>
-    <li>Open <code>http://localhost:8099</code> — hover, watch, toggle Jev OFF</li>
+    <li><code>python3 data/build_catalog.py</code>: build the catalog</li>
+    <li><code>python3 server/app.py</code>: serve + Jev proxy (key stays server-side)</li>
+    <li>Open <code>http://localhost:8099</code>: hover, watch, toggle Jev OFF</li>
   </ol>
   <div class="cta-row">
     <a class="btn primary" href="https://github.com/juanri7/jev-store" target="_blank" rel="noopener">github.com/juanri7/jev-store</a>
