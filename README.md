@@ -1,6 +1,6 @@
 # jevstore-explainer
 
-Static explainer for **JevStore** — the feed that reads your mind (Jev system-one personalization). Deploys on Vercel as-is (no build).
+Static explainer for **JevStore**: the feed that reads your mind (Jev system-one personalization). Deploys on Vercel as-is (no build).
 
 Live demo repo: https://github.com/juanri7/jev-store
 
